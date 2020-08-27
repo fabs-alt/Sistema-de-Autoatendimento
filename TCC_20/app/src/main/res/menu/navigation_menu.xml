@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navgationHome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/text_inicio"/>
+    <item
+        android:id="@+id/navgationmenu"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/text_cardapio"/>
+    <item
+        android:id="@+id/navgation"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="@string/text_carrinho"/>
+    <item
+        android:id="@+id/navgationprofile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/text_perfil"/>
+</menu>
