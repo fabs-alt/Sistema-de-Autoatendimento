@@ -82,7 +82,7 @@
         android:background="@drawable/button_gradiente"
         android:text="@string/btn_login"
         android:textAllCaps="false"
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorAccent2"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_passaword_reset" />
     <TextView

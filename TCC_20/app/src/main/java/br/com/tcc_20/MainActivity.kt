@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.google.android.material.internal.ManufacturerUtils
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,10 +17,7 @@ class MainActivity : AppCompatActivity() {
         val buttonRegister : Button = findViewById(R.id.buttonRegister)
         val buttonContextn : Button = findViewById(R.id.buttonContextn)
 
-        buttonRegister.setOnClickListener(){
-            val intent = Intent(this,Profile::class.java)
-            startActivity(intent)
-        }
+        buttonRegister.setOnClickListener(){}
         buttonContextn.setOnClickListener{}
 
         }//Fim do onCreate
