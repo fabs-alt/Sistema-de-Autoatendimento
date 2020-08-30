@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.internal.ManufacturerUtils
+import kotlinx.android.synthetic.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,6 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         buttonRegister.setOnClickListener(){}
         buttonContextn.setOnClickListener{}
+
+        val locationsViewPager2: ViewPager2 = findViewById(R.id.viewPagerLocations)
+
 
         }//Fim do onCreate
 }
