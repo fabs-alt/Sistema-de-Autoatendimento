@@ -14,6 +14,6 @@
         android:title="@string/text_shopping"/>
     <item
         android:id="@+id/navgationProfile"
-        android:icon="@drawable/ic_person_black_24dp"
-        android:title="@string/text_perfil"/>
+        android:icon="@drawable/ic_attach_money"
+        android:title="@string/text_discount"/>
 </menu>

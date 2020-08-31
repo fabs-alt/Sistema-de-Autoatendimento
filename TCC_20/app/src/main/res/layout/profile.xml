@@ -9,7 +9,7 @@
         android:id="@+id/layoutHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/header_backgroud"
+        android:background="@color/colorPrimary"
         android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -136,6 +136,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/buttonNavigationView"
         android:layout_width="match_parent"

@@ -14,7 +14,7 @@
             android:id="@+id/layoutHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/header_backgroud"
+            android:background="@color/colorPrimary"
             android:padding="10dp"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -116,9 +116,8 @@
                             android:layout_marginEnd="10dp"
                             android:layout_marginRight="10dp"
                             android:background="@color/colorTransparent"
-                            android:backgroundTint="#17DD0B"
                             android:contentDescription="@string/app_name"
-                            android:src="@drawable/ic_send"
+                            android:src="@drawable/ic_check"
                             app:layout_constraintBottom_toBottomOf="@+id/textItem1Title"
                             app:layout_constraintEnd_toStartOf="@+id/imgSituation1"
                             app:layout_constraintTop_toTopOf="@+id/textItem1Title" />
@@ -132,11 +131,10 @@
                             android:background="@color/colorTransparent"
                             android:backgroundTint="#17DD0B"
                             android:contentDescription="@string/app_name"
-                            android:src="@drawable/ic_check"
+                            android:src="@drawable/ic_send"
                             app:layout_constraintBottom_toBottomOf="@+id/textItem1Title"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="@+id/textItem1Title" />
-
 
                         <TextView
                             android:id="@+id/textItem1Description"
@@ -233,14 +231,12 @@
                             android:id="@+id/imgSituation2"
                             android:layout_width="25dp"
                             android:layout_height="25dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="20dp"
                             android:background="@color/colorTransparent"
-                            android:backgroundTint="#17DD0B"
                             android:contentDescription="@string/app_name"
                             android:src="@drawable/ic_cancel"
                             app:layout_constraintBottom_toBottomOf="@+id/textItem2Title"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/view5"
                             app:layout_constraintTop_toTopOf="@+id/textItem2Title" />
 
                         <TextView
@@ -338,14 +334,12 @@
                             android:id="@+id/imgSituation3"
                             android:layout_width="25dp"
                             android:layout_height="25dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="20dp"
                             android:background="@color/colorTransparent"
-                            android:backgroundTint="#17DD0B"
                             android:contentDescription="@string/app_name"
                             android:src="@drawable/ic_new_"
                             app:layout_constraintBottom_toBottomOf="@+id/textItem3Title"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/view"
                             app:layout_constraintTop_toTopOf="@+id/textItem3Title" />
 
                         <TextView
