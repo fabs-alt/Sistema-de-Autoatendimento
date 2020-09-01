@@ -25,8 +25,5 @@ class MainActivity : AppCompatActivity() {
         }
         buttonContextn.setOnClickListener{}
 
-        val locationsViewPager2: ViewPager2 = findViewById(R.id.viewPagerLocations)
-
-
         }//Fim do onCreate
 }

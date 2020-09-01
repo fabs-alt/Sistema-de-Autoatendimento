@@ -2,49 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-<<<<<<< HEAD
-=======
-
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPagerLocations"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"/>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/buttonNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent2"
-        android:backgroundTint="@color/colorAccent2"
-        app:itemIconSize="20dp"
-        app:labelVisibilityMode="unlabeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/navigation_menu" />
->>>>>>> 53bf6b43e42250c66557d21894b81868729c3cdd
-
-    <androidx.recyclerview.widget.RecyclerView
-    android:id="@+id/postRecicleView"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/buttonNavigationView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorAccent2"
-            android:backgroundTint="@color/colorAccent2"
-            app:itemIconSize="20dp"
-            app:labelVisibilityMode="unlabeled"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/navigation_menu" />
-
+    android:layout_height="match_parent">
 
     </androidx.constraintlayout.widget.ConstraintLayout>
