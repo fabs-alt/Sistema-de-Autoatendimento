@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+<<<<<<< HEAD:TCC30/app/src/main/AndroidManifest.xml
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".LoginActivity" />
+=======
+        <activity android:name=".Product" />
+        <activity android:name=".Menu" />
+>>>>>>> ebfe4b7a35b12515bf46e70366aea23cc6ad1eca:TCC_20/app/src/main/AndroidManifest.xml
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
