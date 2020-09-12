@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(ProductFragment())
                     return@setOnNavigationItemSelectedListener true
                 }
+                    menuItem.itemId == R.id.navgationProfile-> {
+                    loadFragment(ProfileFragment())
+                    return@setOnNavigationItemSelectedListener true
+                }
                 else ->{
                     return@setOnNavigationItemSelectedListener false
                 }

@@ -10,44 +10,39 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pedidos"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorWhite"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/layoutHeader"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/background_border_red"
-                android:padding="10dp"
-                app:layout_constraintTop_toTopOf="parent">
-
-                <TextView
-                    android:id="@+id/textPage"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="@string/text_shopping"
-                    android:textColor="@color/colorWhite"
-                    android:textSize="25sp"
-                    app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/imageButton"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:background="@color/colorTransparent"
-                    android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_menu_white"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView">
 
             <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
@@ -71,7 +66,7 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/colorPrimaryDark">
+                            android:background="@color/colorAccent">
 
                             <View
                                 android:id="@+id/view4"
@@ -102,12 +97,11 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
                                 android:layout_marginLeft="10dp"
-                                android:layout_marginEnd="80dp"
-                                android:layout_marginRight="80dp"
-                                android:text="@string/text_welcome"
-                                android:textColor="@color/colorWhite"
+                                android:text="° 31"
+                                android:textColor="@color/colorBlack"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
+                                app:layout_constraintEnd_toStartOf="@+id/view4"
                                 app:layout_constraintStart_toEndOf="@id/imgShopping1"
                                 app:layout_constraintTop_toTopOf="@id/imgShopping1" />
 
@@ -145,7 +139,7 @@
                                 android:ellipsize="end"
                                 android:maxLines="2"
                                 android:text="@string/text_Text"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorBlack"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="@id/textItem1Title"
                                 app:layout_constraintStart_toStartOf="@id/textItem1Title"
@@ -188,7 +182,7 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/colorPrimaryDark">
+                            android:background="@color/colorAccent">
 
                             <View
                                 android:id="@+id/view5"
@@ -222,7 +216,7 @@
                                 android:layout_marginEnd="80dp"
                                 android:layout_marginRight="80dp"
                                 android:text="@string/text_welcome"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorBlack"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 app:layout_constraintStart_toEndOf="@id/imgShopping2"
@@ -248,7 +242,7 @@
                                 android:ellipsize="end"
                                 android:maxLines="2"
                                 android:text="@string/text_Text"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorBlack"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="@id/textItem2Title"
                                 app:layout_constraintStart_toStartOf="@id/textItem2Title"
@@ -291,7 +285,7 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/colorPrimaryDark">
+                            android:background="@color/colorAccent">
 
                             <View
                                 android:id="@+id/view"
@@ -325,7 +319,7 @@
                                 android:layout_marginEnd="80dp"
                                 android:layout_marginRight="80dp"
                                 android:text="@string/text_welcome"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorBlack"
                                 android:textSize="18sp"
                                 android:textStyle="bold"
                                 app:layout_constraintStart_toEndOf="@id/imgShopping3"
@@ -351,7 +345,7 @@
                                 android:ellipsize="end"
                                 android:maxLines="2"
                                 android:text="@string/text_Text"
-                                android:textColor="@color/colorWhite"
+                                android:textColor="@color/colorBlack"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="@id/textItem3Title"
                                 app:layout_constraintStart_toStartOf="@id/textItem3Title"

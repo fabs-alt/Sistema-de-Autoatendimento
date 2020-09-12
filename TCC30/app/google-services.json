@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "568481381213",
+    "firebase_url": "https://fir-tcc-4910c.firebaseio.com",
+    "project_id": "fir-tcc-4910c",
+    "storage_bucket": "fir-tcc-4910c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568481381213:android:e722dc07a3b0138b1106b4",
+        "android_client_info": {
+          "package_name": "br.com.tcc30"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568481381213-7ea52p7j7n34d5pd2iuinigdagebsokh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.tcc30",
+            "certificate_hash": "5db7926b8d2d11d9335fb085ea4faebf582ec022"
+          }
+        },
+        {
+          "client_id": "568481381213-tpb33g5vnb0ub067pc04thiv84s63f49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwUXArvd6WUJOZhos-oPvMwXyj1a8EmUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568481381213-tpb33g5vnb0ub067pc04thiv84s63f49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
